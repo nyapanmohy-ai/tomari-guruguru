@@ -20,13 +20,13 @@ python -m http.server 8000
 その後、ブラウザで開きます。
 
 ```text
-http://localhost:8000/にゃぱんトーク.html
+http://localhost:8000/talk.html
 ```
 
 または:
 
 ```text
-http://localhost:8000/にゃぱんぐるぐる.html
+http://localhost:8000/guruguru.html
 ```
 
 注意:
@@ -43,8 +43,8 @@ http://localhost:8000/にゃぱんぐるぐる.html
 
 | ファイル / フォルダ | 役割 |
 |---|---|
-| `にゃぱんぐるぐる.html` | ぐるぐる版の起動ページ |
-| `にゃぱんトーク.html` | トーク版の起動ページ |
+| `guruguru.html` | ぐるぐる版の起動ページ |
+| `talk.html` | トーク版の起動ページ |
 | `app.jsx` | ぐるぐる版のアプリ本体 |
 | `talk-app.jsx` | トーク版のアプリ本体 |
 | `tweaks-panel.jsx` | 画面右下の調整パネル |
@@ -117,14 +117,14 @@ slices2/F/r4c4.webp
 
 ### にゃぱんぐるぐる
 
-1. `にゃぱんぐるぐる.html` を開く
+1. `guruguru.html` を開く
 2. マウスを動かす
 3. キャラクターがマウス方向に合わせて25方向で振り向きます
 4. 自動まばたきも入ります
 
 ### にゃぱんトーク
 
-1. `にゃぱんトーク.html` を開く
+1. `talk.html` を開く
 2. **マイク開始** を押す、または音声ファイルを読み込む
 3. 音量に応じて口が切り替わります
    - とじ
@@ -167,7 +167,7 @@ https://nyapanmohy-ai.github.io/tomari-guruguru/
 https://github.com/nyapanmohy-ai/tomari-guruguru
 ```
 
-トップページは `にゃぱんトーク.html` に自動転送されます。
+トップページは `talk.html` に自動転送されます。
 
 `再生用にゃぱんセリフ.wav` は口パク確認用のサンプル音声です。
 
