@@ -16,7 +16,7 @@ const ROWS = 5, COLS = 5;
 // シート: 目開け×口[とじ/中間/開け] = A/B/C, 目閉じ×口[とじ/中間/開け] = D/E/F
 const SHEETS = ['A', 'B', 'C', 'D', 'E', 'F'];
 const sheetFor = (eyesClosed, mouth) => SHEETS[(eyesClosed ? 3 : 0) + mouth];
-const SRC = (sheet, r, c) => `slices2/${sheet}/r${r}c${c}.webp?v=3`;
+const SRC = (sheet, r, c) => `slices2/${sheet}/r${r}c${c}.webp?v=4`;
 const BG_OPTIONS = ['#FFF8EE', '#FDEFEF', '#EEF4FB', '#2B2926'];
 
 function clamp(v, a, b) { return Math.min(b, Math.max(a, v)); }
